@@ -4,7 +4,7 @@ from django.db.models.aggregates import Max
 # Create your models here.
 
 class Product(models.Model):
-    id = models.CharField(max_length=100)
+    id = models.CharField(primary_key=True, max_length=100)
     name = models.CharField(max_length=100)
     price = models.CharField(max_length=100)
 
