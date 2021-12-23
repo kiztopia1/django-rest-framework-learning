@@ -11,6 +11,7 @@
 /api/store/__pycache__
 /api/api/__pycache__
 /api/store/migrations
+
 # testing
 /coverage
 
